@@ -1,3 +1,7 @@
+.container{
+  height: 100%;
+}
+
 .row {
   width: 992px;
   margin-left: auto;
@@ -65,6 +69,27 @@ img{
 .clear {
   clear:both;
 }
+
+@media screen and (max-width: 420px) {
+body {
+background-color: #f9f9f9;
+}
+}
+
+@media screen and (max-width: 420px) {
+ .row{
+   width: 100%;
+   height: 100%;
+}
+}
+
+@media screen and (max-width: 420px) {
+  #lezioni .row > .left,
+  #lezioni .row > .righ{
+    float: none;
+    width: 100%;
+  }
+  }
 
 @media screen and (max-width: 420px) {
   #steps .row > .left,
