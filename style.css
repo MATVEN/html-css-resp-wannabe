@@ -72,18 +72,20 @@ img{
 
 
 @media screen and (max-width: 420px) {
+
   [background="grey"]{
     padding: 10px 5px;
+  }
+
+  img{
+    width: 50%;
+    height: auto;;
   }
  .row{
    width: 100%;
    margin-top: 0;
 }
-  /*#lezioni .row > .left,
-  #lezioni .row > .righ{
-    float: none;
-    width: 100%;*/
-}
+
  #steps .row > .left,
  #steps .row > .central,
  #steps .row > .right,
@@ -91,7 +93,7 @@ img{
    float: none;
    width: 100%;
  }
- °
+
  #leioni, #steps{
    margin-bottom: 200px;
  }
