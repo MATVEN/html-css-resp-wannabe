@@ -70,32 +70,28 @@ img{
   clear:both;
 }
 
-@media screen and (max-width: 420px) {
-body {
-background-color: #f9f9f9;
-}
-}
 
 @media screen and (max-width: 420px) {
+  [background="grey"]{
+    padding: 10px 5px;
+  }
  .row{
    width: 100%;
-   height: 100%;
+   margin-top: 0;
 }
-}
-
-@media screen and (max-width: 420px) {
-  #lezioni .row > .left,
+  /*#lezioni .row > .left,
   #lezioni .row > .righ{
     float: none;
-    width: 100%;
-  }
-  }
-
-@media screen and (max-width: 420px) {
-  #steps .row > .left,
-  #steps .row > .central,
-  #steps .row > .right{
-    float: none;
-    width: 100%;
-  }
+    width: 100%;*/
 }
+ #steps .row > .left,
+ #steps .row > .central,
+ #steps .row > .right,
+ #lezioni .row > .left, #lezioni .row > .right{
+   float: none;
+   width: 100%;
+ }
+ °
+ #leioni, #steps{
+   margin-bottom: 200px;
+ }
